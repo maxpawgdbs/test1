@@ -26,7 +26,7 @@ class NewWindow(QMainWindow):
             qp.end()
 
     def draw_krug(self, qp):
-        for i in range(10):
+        for i in range(20):
             radius = randint(20, 100)
             color = QColor(255, 255, 0)
             pos = QPoint(randint(1, 500), randint(1, 500))
